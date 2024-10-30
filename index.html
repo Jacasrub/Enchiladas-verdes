@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html style="background-color:hsl(300, 76%, 92%)" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enchiladas verdes</title>
+    <style>
+        img {
+            border-radius: 50px 50px 50px 50px;
+            border: solid purple 5px;
+        }
+
+        body {
+            font-family: "Trebuchet MS", sans-serif;
+            font-size: 35px;
+            margin: 50px 10px 0 50px;
+        }
+
+        #but1 {
+            margin: 0 0 0 815px;
+        }
+
+        #like {
+            margin: 0 0 0 775px;
+        }
+    </style>
+</head>
+<h1 style="font-size:400%;background-color:hsl(300, 76%, 92%);
+text-align: center; font-family: Oswald, fantasy; color: slateblue">
+    Enchiladas Verdes</h1>
+<body>
+
+<p>
+    <b style="font-size:150%;text-align: left;margin: 0 0 0 700px">Ingredientes:</b>
+</p>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Ingredientes"
+         src="https://sabrosano.com/wp-content/uploads/2020/05/Enchiladas-Verdes-de-Camaron-1.jpg"
+         width="300" height="300"></div>
+<p style="margin: 150px 0 150px 400px">
+    • 12 tortillas de maíz
+    • 500 g de pechuga de pollo cocida y desmenuzada
+    • 400 g de tomatillo
+    • 2 chiles serranos
+    • 1 diente de ajo
+    • ½ cebolla
+    • 200 g de crema
+    • 200 g de queso fresco desmenuzado
+    • Aceite vegetal
+    • Sal
+</p>
+<hr>
+<p>
+    <b style="font-size:150%;text-align: left;margin: 0 0 0 700px">Preparación:</b>
+</p>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Salsa"
+         src="https://www.piloncilloyvainilla.com/wp-content/uploads/2013/10/Salsa-mexicana.ale-graf.pV-2-of-4.jpg"
+         width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">1º Preparar la salsa: Cocina los tomatillos y los chiles en agua hirviendo durante unos 5 minutos. Una vez cocidos, licúalos junto con la cebolla, el ajo y un poco de sal hasta obtener una salsa homogénea.</p>
+<hr>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Cocinando las tortillas"
+         src="https://www.wikihow.com/images_en/thumb/e/e2/Make-Enchiladas-Step-3.jpg/v4-460px-Make-Enchiladas-Step-3.jpg.webp"
+         width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">2º Freír las tortillas: Calienta un poco de aceite en una sartén. Pasa rápidamente las tortillas por el aceite caliente para suavizarlas sin que se doren demasiado. Resérvalas.</p>
+<hr>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Prepara la fagita"
+         src="https://img-global.cpcdn.com/recipes/52727578d3e85c0f/400x400cq70/photo.jpg"
+         width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">3º Ensamblar las enchiladas: Rellena cada tortilla con el pollo desmenuzado y enrolla. Coloca las enchiladas en un plato grande.</p>
+<hr>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Emplatando"
+         src="https://img-global.cpcdn.com/recipes/recipes_34648_v1393349631_receta_foto_00034648/1200x630cq70/photo.jpg"
+         width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">4º Servir: Cubre las enchiladas con la salsa verde caliente, añade crema y queso fresco por encima. Sirve acompañadas de frijoles refritos o arroz.</p>
+<hr>
+<p>
+    <button><a href="https://jacasrub.github.io/Recetas-de-cocina/">
+        VOLVER</a></button>
+    <script>
+        function like(sw) {
+            let pic;
+            if (sw == 0) {
+                pic = "https://e7.pngegg.com/pngimages/763/345/png-clipart-like-button-social-media-facebook-messenger-speak-listen-apply-blue-angle.png"
+            } else {
+                pic = "https://cdn-icons-png.flaticon.com/512/4926/4926589.png"
+            }
+            document.getElementById("like").src = pic;
+        }
+    </script>
+    <img id="like"
+         src="https://img.freepik.com/fotos-premium/pared-blanca-fondo-blanco-que-dice-palabra-cita_994023-371201.jpg"
+         alt="Like/Dislike"
+         width="100" height="100">
+    <br>
+
+    <button id="but1" type="button" onclick="like(0)">ME GUSTA</button>
+    <button id="but2" type="button" onclick="like(1)">NO ME GUSTA</button>
+</p>
+
+</body>
+</html>
